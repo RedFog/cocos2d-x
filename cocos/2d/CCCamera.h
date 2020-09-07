@@ -146,7 +146,7 @@ public:
     /**get view projection matrix*/
     const Mat4& getViewProjectionMatrix() const;
     
-    /* convert the specified point in 3D world-space coordinates into the screen-space coordinates.
+    /** convert the specified point in 3D world-space coordinates into the screen-space coordinates.
      *
      * Origin point at left top corner in screen-space.
      * @param src The world-space position.
@@ -154,7 +154,7 @@ public:
      */
     Vec2 project(const Vec3& src) const;
     
-    /* convert the specified point in 3D world-space coordinates into the GL-screen-space coordinates.
+    /** convert the specified point in 3D world-space coordinates into the GL-screen-space coordinates.
      *
      * Origin point at left bottom corner in GL-screen-space.
      * @param src The 3D world-space position.

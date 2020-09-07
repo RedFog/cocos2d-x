@@ -182,3 +182,11 @@ temp/
 # external libs zip
 *.zip
 **/simulator/
+.clangd
+build/.cmake
+build2/CMakeScripts
+build2
+clangd.json
+cocos2d-x.code-workspace
+compile_commands.json
+*.pages
